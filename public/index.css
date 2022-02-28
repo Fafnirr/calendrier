@@ -1,14 +1,51 @@
-#img {
-  display: block;
-  margin: auto;
-  height: 128px;
-  width: 128px;
-  padding: 2rem;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-#canvas {
-  display: block;
-  margin: 2rem auto;
-  width: 540px;
-  height: 540px;
+#dayContainer{
+  background-color: #85DDE9;
+  width: auto;
+  height: 100vh;
+  padding-left: 5%;
+  padding-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.daysBox {
+  font-size: 35px;
+  width: 10%;
+  border: 1px solid rgb(185, 185, 185);
+  background-color: #FFFF;
+  margin: 0.5px;
+  text-align: center;
+}
+
+.mois{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.month{
+  font-size: 50px;
+}
+
+.calendr{
+  margin-top: 2em;
+  margin-right: 2em;
+}
+
+.events{
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.evntButton{
+  margin-top: 5px;
+}
+
+.joursbutton{
+  width: 50px;
 }
